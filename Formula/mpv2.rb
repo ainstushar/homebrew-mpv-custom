@@ -16,9 +16,9 @@ end
 class Mpv < Formula
   url 'https://github.com/mpv-player/mpv/archive/v0.3.10.tar.gz'
   sha1 '86880f992a4418cfa8ce0b80b5305572a6105bfa'
-  head 'https://github.com/mpv-player/mpv.git',
+  head 'https://github.com/ainstushar/mpv.git',
     :branch => ENV['MPV_BRANCH'] || "master"
-  homepage 'https://github.com/mpv-player/mpv'
+  homepage 'https://github.com/ainstushar/mpv'
 
   depends_on 'pkg-config' => :build
   depends_on :python
